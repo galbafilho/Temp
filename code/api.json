@@ -1,0 +1,3 @@
+descricao = dados['weather'][0]['description']
+temperatura = dados['main']['temp'] - 273.15  # Convertendo de Kelvin para Celsius
+print(descricao, f"{temperatura:.2f}ºC")
